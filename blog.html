@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>    
+
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .font-lexend {
+          font-family: 'Lexend', sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        .button-active {
+        background-color: #b4f461 !important;
+        }
+    </style>
+
+</head>
+
+<body class="font-lexend">
+    <!-- Sticky Section Starts -->
+    <section class="sticky top-0 z-10">
+
+        <!-- Navigation Menu -->
+        <div class="bg-[#F9F7F3]">
+            <div class="flex w-10/12 mx-auto justify-between pt-6 pb-6">
+                <div class="flex items-center">
+                    <button><a href="./index.html" class="bg-[#B4F461] text-black text-xl font-semibold rounded-md px-6 py-2 hover:bg-[#95E04D]">Home</a></button>
+                </div>
+                <div class="flex items-center">
+                    <img class="w-12" src="./images/logo.png" alt="Logo">
+                    <h2 class="hidden lg:block text-black text-xl font-semibold pl-2">Donate Bangladesh</h2>
+                </div>
+                <div class="flex items-center">
+                    <img class="w-7 pr-1.5" src="./images/coin.png" alt="Coin Icon">
+                    <h2 class="text-xl font-medium text-[#111111B3]"><span id="target-amount">5500</span> BDT</h2>
+                </div>                
+            </div> 
+    </section>                       
+    <!-- Sticky Section Ends -->
+
+
+    <section class="w-10/12 mx-auto mt-8">
+        <div class="flex mb-5">
+            <H1 class="text-4xl font-black pr-6">Important FAQ</H1>
+            <img class="h-16" src="./images/faq.png" alt="FAQ Icon">
+        </div>
+
+        <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4">
+            <input type="radio" name="collapse-group" class="peer" />
+            <div class="collapse-title text-xl font-medium peer-checked:bg-base-300">
+                What are the primary causes of flooding in Bangladesh?
+            </div>
+            <div class="collapse-content peer-checked:block">
+                <textarea class="textarea textarea-no-border w-full" placeholder="Write your best answer.."></textarea>
+            </div>
+        </div>
+
+        <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4">
+            <input type="radio" name="collapse-group" class="peer" />
+            <div class="collapse-title text-xl font-medium peer-checked:bg-base-300">
+                How do floods impact the lives of people in Bangladesh?
+            </div>
+            <div class="collapse-content peer-checked:block">
+                <textarea class="textarea textarea-no-border w-full" placeholder="Write your best answer.."></textarea>
+            </div>
+        </div>
+
+        <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4">
+            <input type="radio" name="collapse-group" class="peer" />
+            <div class="collapse-title text-xl font-medium peer-checked:bg-base-300">
+                What are the government's and international organizations' efforts to mitigate the effects of flooding in Bangladesh?
+            </div>
+            <div class="collapse-content peer-checked:block">
+                <textarea class="textarea textarea-no-border w-full" placeholder="Write your best answer.."></textarea>
+            </div>
+        </div>
+
+        <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-4">
+            <input type="radio" name="collapse-group" class="peer" />
+            <div class="collapse-title text-xl font-medium peer-checked:bg-base-300">
+                How can climate change exacerbate flooding in Bangladesh, and what measures can be taken to adapt to its impacts?
+            </div>
+            <div class="collapse-content peer-checked:block">
+                <textarea class="textarea textarea-no-border w-full" placeholder="Write your best answer.."></textarea>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="./js/function.js"></script>
+</body>
+</html>
